@@ -18,10 +18,6 @@ FRIDAY_ALIVE = ("`FRIDAY IS:` **ONLINE**\n\n"
 "**Friday OS** : `3.14`\n\n"
 "**Current Sat** : `StarkGangSat-2.25`\n\n"
 f"**My Boss** : {DEFAULTUSER} \n\n"
-"**Heroku Database** : `AWS - Working Properly`\n\n"
-"**License** : [MIT Licence](github.com/StarkGang/FridayUserbot/blob/master/LICENSE)\n\n"
-"Copyright By [StarkGang@Github](GitHub.com/StarkGang)\n\n"
-"[Deploy FridayUserbot](https://telegra.ph/FRIDAY-06-15)")
 
 #@command(outgoing=True, pattern="^.alive$")
 @borg.on(admin_cmd(pattern=r"alive"))
